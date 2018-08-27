@@ -1,7 +1,7 @@
 # Using custom images in a CycleCloud cluster.
 
 ## Note:
-_*It is assumed that you have some familiarity with Azure CycleCloud. If not, please try the [tutorials in the lab](https://github.com/cyclecloud/cyclecloud_tutorials).
+_*It is assumed that you have some familiarity with Azure CycleCloud. If not, please try the [tutorials in the lab](https://github.com/cyclecloud/cyclecloud_tutorials).*_
 
 ## Pre-requisites
 1. A running and configured Azure CycleCloud server
