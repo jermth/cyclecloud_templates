@@ -3,7 +3,7 @@
 ## Cluster Configuration File ##
 ################################
 
-[cluster pbspro_customimage]
+[cluster gridengine_customimage]
 FormLayout = selectionpanel
 Category = Applications
 
@@ -29,7 +29,7 @@ Autoscale = $Autoscale
 
         [[[configuration]]]
 
-        [[[cluster-init cyclecloud/pbspro:master]]]
+        [[[cluster-init cyclecloud/gridengine:master]]]
 
         [[[network-interface eth0]]]
         AssociatePublicIpAddress = $UsePublicNetwork
@@ -73,7 +73,7 @@ Autoscale = $Autoscale
         # which it is by default
         cyclecloud.selinux.policy = permissive
 
-        [[[cluster-init cyclecloud/pbspro:execute]]]
+        [[[cluster-init cyclecloud/gridengine:execute]]]
         Optional = True
 
         [[[network-interface eth0]]]
@@ -97,7 +97,7 @@ Order = 1
         [[[parameter Custom Image]]]
         HideLabel = true
         Config.Plugin = pico.widget.HtmlTemplateWidget
-        Config.Template := "<p>A PBSPro cluster that uses a custom image for the execute nodes.</p><p>The head node of the cluster uses a standard image.</p>"
+        Config.Template := "<p>A Grid Engine cluster that uses a custom image for the execute nodes.</p><p>The head node of the cluster uses a standard image.</p>"
 
 [parameters Required Settings]
 Order = 10
