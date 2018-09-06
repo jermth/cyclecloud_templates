@@ -94,7 +94,7 @@ Order = 1
 
     [[parameters About This Template]]
 
-        [[[parameter Custom Image]]]
+        [[[parameter About Custom Image]]]
         HideLabel = true
         Config.Plugin = pico.widget.HtmlTemplateWidget
         Config.Template := "<p>A Grid Engine cluster that uses a custom image for the execute nodes.</p><p>The head node of the cluster uses a standard image.</p>"
